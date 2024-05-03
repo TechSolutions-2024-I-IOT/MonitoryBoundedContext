@@ -41,6 +41,20 @@
       "time_stamp": "2024-05-02T08:30:00Z",
       "bus_unit_id": 102,
       "stops_id": 204
+    },
+    {
+      "id": 5,
+      "estimated_time_arrival": "09:00:00",
+      "time_stamp": "2024-05-02T08:45:00Z",
+      "bus_unit_id": 101,
+      "stops_id": 205
+    },
+    {
+      "id": 6,
+      "estimated_time_arrival": "09:15:00",
+      "time_stamp": "2024-05-02T09:00:00Z",
+      "bus_unit_id": 102,
+      "stops_id": 206
     }
   ],
   "gps_trackers": [
@@ -78,6 +92,102 @@
       "id": 4,
       "heart_rate": 88,
       "time_stamp": "2024-05-02T09:15:00Z",
+      "smart_bands_id": 2
+    },
+    {
+      "id": 5,
+      "heart_rate": 90,
+      "time_stamp": "2024-05-02T09:30:00Z",
+      "smart_bands_id": 1
+    },
+    {
+      "id": 6,
+      "heart_rate": 85,
+      "time_stamp": "2024-05-02T09:45:00Z",
+      "smart_bands_id": 2
+    },
+    {
+      "id": 7,
+      "heart_rate": 87,
+      "time_stamp": "2024-05-02T10:00:00Z",
+      "smart_bands_id": 1
+    },
+    {
+      "id": 8,
+      "heart_rate": 86,
+      "time_stamp": "2024-05-02T10:15:00Z",
+      "smart_bands_id": 2
+    },
+    {
+      "id": 9,
+      "heart_rate": 87,
+      "time_stamp": "2024-05-02T10:30:00Z",
+      "smart_bands_id": 1
+    },
+    {
+      "id": 10,
+      "heart_rate": 80,
+      "time_stamp": "2024-05-02T10:45:00Z",
+      "smart_bands_id": 2
+    },
+    {
+      "id": 11,
+      "heart_rate": 82,
+      "time_stamp": "2024-05-02T11:00:00Z",
+      "smart_bands_id": 1
+    },
+    {
+      "id": 12,
+      "heart_rate": 78,
+      "time_stamp": "2024-05-02T11:15:00Z",
+      "smart_bands_id": 2
+    },
+    {
+      "id": 13,
+      "heart_rate": 78,
+      "time_stamp": "2024-05-02T11:30:00Z",
+      "smart_bands_id": 1
+    },
+    {
+      "id": 14,
+      "heart_rate": 79,
+      "time_stamp": "2024-05-02T11:45:00Z",
+      "smart_bands_id": 2
+    },
+    {
+      "id": 15,
+      "heart_rate": 79,
+      "time_stamp": "2024-05-02T12:00:00Z",
+      "smart_bands_id": 1
+    },
+    {
+      "id": 16,
+      "heart_rate": 83,
+      "time_stamp": "2024-05-02T12:15:00Z",
+      "smart_bands_id": 2
+    },
+    {
+      "id": 17,
+      "heart_rate": 84,
+      "time_stamp": "2024-05-02T12:30:00Z",
+      "smart_bands_id": 1
+    },
+    {
+      "id": 18,
+      "heart_rate": 81,
+      "time_stamp": "2024-05-02T12:45:00Z",
+      "smart_bands_id": 2
+    },
+    {
+      "id": 19,
+      "heart_rate": 82,
+      "time_stamp": "2024-05-02T13:00:00Z",
+      "smart_bands_id": 1
+    },
+    {
+      "id": 20,
+      "heart_rate": 80,
+      "time_stamp": "2024-05-02T13:15:00Z",
       "smart_bands_id": 2
     }
   ],
@@ -121,6 +231,46 @@
       "altitude": 200.0,
       "accuracy": 7.5,
       "gps_trackers_id": 2
+    },
+    {
+      "id": 5,
+      "latitude": "29.7604° N",
+      "longitude": "95.3698° W",
+      "timestamp": 1620014800,
+      "heading": 180.0,
+      "altitude": 250.0,
+      "accuracy": 5.0,
+      "gps_trackers_id": 1
+    },
+    {
+      "id": 6,
+      "latitude": "33.4484° N",
+      "longitude": "112.0740° W",
+      "timestamp": 1620014900,
+      "heading": 270.0,
+      "altitude": 300.0,
+      "accuracy": 5.5,
+      "gps_trackers_id": 2
+    },
+    {
+      "id": 7,
+      "latitude": "32.7157° N",
+      "longitude": "117.1611° W",
+      "timestamp": 1620015000,
+      "heading": 90.0,
+      "altitude": 350.0,
+      "accuracy": 5.0,
+      "gps_trackers_id": 1
+    },
+    {
+      "id": 8,
+      "latitude": "34.0522° N",
+      "longitude": "118.2437° W",
+      "timestamp": 1620015100,
+      "heading": 0.0,
+      "altitude": 400.0,
+      "accuracy": 5.0,
+      "gps_trackers_id": 2
     }
   ],
   "occupancy_logs": [
@@ -146,6 +296,54 @@
       "id": 4,
       "time_stamp": "2024-05-02T07:45:00Z",
       "occupancy_count": 15,
+      "cameras_device_id": 2
+    },
+    {
+      "id": 5,
+      "time_stamp": "2024-05-02T07:00:00Z",
+      "occupancy_count": 10,
+      "cameras_device_id": 1
+    },
+    {
+      "id": 6,
+      "time_stamp": "2024-05-02T08:15:00Z",
+      "occupancy_count": 5,
+      "cameras_device_id": 2
+    },
+    {
+      "id": 7,
+      "time_stamp": "2024-05-02T08:30:00Z",
+      "occupancy_count": 0,
+      "cameras_device_id": 1
+    },
+    {
+      "id": 8,
+      "time_stamp": "2024-05-02T08:45:00Z",
+      "occupancy_count": 0,
+      "cameras_device_id": 2
+    },
+    {
+      "id": 9,
+      "time_stamp": "2024-05-02T09:00:00Z",
+      "occupancy_count": 0,
+      "cameras_device_id": 1
+    },
+    {
+      "id": 10,
+      "time_stamp": "2024-05-02T09:15:00Z",
+      "occupancy_count": 0,
+      "cameras_device_id": 2
+    },
+    {
+      "id": 11,
+      "time_stamp": "2024-05-02T09:30:00Z",
+      "occupancy_count": 0,
+      "cameras_device_id": 1
+    },
+    {
+      "id": 12,
+      "time_stamp": "2024-05-02T09:45:00Z",
+      "occupancy_count": 0,
       "cameras_device_id": 2
     }
   ],
