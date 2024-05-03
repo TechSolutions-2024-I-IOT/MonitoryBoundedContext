@@ -1,13 +1,360 @@
 {
-    "posts": [
-      { "id": "1", "title": "a title", "views": 100 },
-      { "id": "2", "title": "another title", "views": 200 }
-    ],
-    "comments": [
-      { "id": "1", "text": "a comment about post 1", "postId": "1" },
-      { "id": "2", "text": "another comment about post 1", "postId": "1" }
-    ],
-    "profile": {
-      "name": "typicode"
+  "cameras_device": [
+    {
+      "id": 1,
+      "model": 101,
+      "installation_date": "2024-04-25",
+      "bus_unit_id": 101
+    },
+    {
+      "id": 2,
+      "model": 102,
+      "installation_date": "2024-04-26",
+      "bus_unit_id": 102
     }
-  }
+  ],
+  "estimated_arrivals": [
+    {
+      "id": 1,
+      "estimated_time_arrival": "08:00:00",
+      "time_stamp": "2024-05-02T07:45:00Z",
+      "bus_unit_id": 101,
+      "stops_id": 201
+    },
+    {
+      "id": 2,
+      "estimated_time_arrival": "08:15:00",
+      "time_stamp": "2024-05-02T08:00:00Z",
+      "bus_unit_id": 102,
+      "stops_id": 202
+    },
+    {
+      "id": 3,
+      "estimated_time_arrival": "08:30:00",
+      "time_stamp": "2024-05-02T08:15:00Z",
+      "bus_unit_id": 101,
+      "stops_id": 203
+    },
+    {
+      "id": 4,
+      "estimated_time_arrival": "08:45:00",
+      "time_stamp": "2024-05-02T08:30:00Z",
+      "bus_unit_id": 102,
+      "stops_id": 204
+    },
+    {
+      "id": 5,
+      "estimated_time_arrival": "09:00:00",
+      "time_stamp": "2024-05-02T08:45:00Z",
+      "bus_unit_id": 101,
+      "stops_id": 205
+    },
+    {
+      "id": 6,
+      "estimated_time_arrival": "09:15:00",
+      "time_stamp": "2024-05-02T09:00:00Z",
+      "bus_unit_id": 102,
+      "stops_id": 206
+    }
+  ],
+  "gps_trackers": [
+    {
+      "id": 1,
+      "model": "GPS Model A",
+      "bus_unit_id": 101
+    },
+    {
+      "id": 2,
+      "model": "GPS Model B",
+      "bus_unit_id": 102
+    }
+  ],
+  "heart_rate_logs": [
+    {
+      "id": 1,
+      "heart_rate": 78,
+      "time_stamp": "2024-05-02T08:30:00Z",
+      "smart_bands_id": 1
+    },
+    {
+      "id": 2,
+      "heart_rate": 82,
+      "time_stamp": "2024-05-02T08:45:00Z",
+      "smart_bands_id": 2
+    },
+    {
+      "id": 3,
+      "heart_rate": 85,
+      "time_stamp": "2024-05-02T09:00:00Z",
+      "smart_bands_id": 1
+    },
+    {
+      "id": 4,
+      "heart_rate": 88,
+      "time_stamp": "2024-05-02T09:15:00Z",
+      "smart_bands_id": 2
+    },
+    {
+      "id": 5,
+      "heart_rate": 90,
+      "time_stamp": "2024-05-02T09:30:00Z",
+      "smart_bands_id": 1
+    },
+    {
+      "id": 6,
+      "heart_rate": 85,
+      "time_stamp": "2024-05-02T09:45:00Z",
+      "smart_bands_id": 2
+    },
+    {
+      "id": 7,
+      "heart_rate": 87,
+      "time_stamp": "2024-05-02T10:00:00Z",
+      "smart_bands_id": 1
+    },
+    {
+      "id": 8,
+      "heart_rate": 86,
+      "time_stamp": "2024-05-02T10:15:00Z",
+      "smart_bands_id": 2
+    },
+    {
+      "id": 9,
+      "heart_rate": 87,
+      "time_stamp": "2024-05-02T10:30:00Z",
+      "smart_bands_id": 1
+    },
+    {
+      "id": 10,
+      "heart_rate": 80,
+      "time_stamp": "2024-05-02T10:45:00Z",
+      "smart_bands_id": 2
+    },
+    {
+      "id": 11,
+      "heart_rate": 82,
+      "time_stamp": "2024-05-02T11:00:00Z",
+      "smart_bands_id": 1
+    },
+    {
+      "id": 12,
+      "heart_rate": 78,
+      "time_stamp": "2024-05-02T11:15:00Z",
+      "smart_bands_id": 2
+    },
+    {
+      "id": 13,
+      "heart_rate": 78,
+      "time_stamp": "2024-05-02T11:30:00Z",
+      "smart_bands_id": 1
+    },
+    {
+      "id": 14,
+      "heart_rate": 79,
+      "time_stamp": "2024-05-02T11:45:00Z",
+      "smart_bands_id": 2
+    },
+    {
+      "id": 15,
+      "heart_rate": 79,
+      "time_stamp": "2024-05-02T12:00:00Z",
+      "smart_bands_id": 1
+    },
+    {
+      "id": 16,
+      "heart_rate": 83,
+      "time_stamp": "2024-05-02T12:15:00Z",
+      "smart_bands_id": 2
+    },
+    {
+      "id": 17,
+      "heart_rate": 84,
+      "time_stamp": "2024-05-02T12:30:00Z",
+      "smart_bands_id": 1
+    },
+    {
+      "id": 18,
+      "heart_rate": 81,
+      "time_stamp": "2024-05-02T12:45:00Z",
+      "smart_bands_id": 2
+    },
+    {
+      "id": 19,
+      "heart_rate": 82,
+      "time_stamp": "2024-05-02T13:00:00Z",
+      "smart_bands_id": 1
+    },
+    {
+      "id": 20,
+      "heart_rate": 80,
+      "time_stamp": "2024-05-02T13:15:00Z",
+      "smart_bands_id": 2
+    }
+  ],
+  "location_logs": [
+    {
+      "id": 1,
+      "latitude": "37.7749° N",
+      "longitude": "122.4194° W",
+      "timestamp": 1620014400,
+      "heading": 180.0,
+      "altitude": 50.0,
+      "accuracy": 6.0,
+      "gps_trackers_id": 1
+    },
+    {
+      "id": 2,
+      "latitude": "40.7128° N",
+      "longitude": "74.0060° W",
+      "timestamp": 1620014500,
+      "heading": 270.0,
+      "altitude": 100.0,
+      "accuracy": 5.0,
+      "gps_trackers_id": 2
+    },
+    {
+      "id": 3,
+      "latitude": "34.0522° N",
+      "longitude": "118.2437° W",
+      "timestamp": 1620014600,
+      "heading": 90.0,
+      "altitude": 150.0,
+      "accuracy": 6.0,
+      "gps_trackers_id": 1
+    },
+    {
+      "id": 4,
+      "latitude": "41.8781° N",
+      "longitude": "87.6298° W",
+      "timestamp": 1620014700,
+      "heading": 0.0,
+      "altitude": 200.0,
+      "accuracy": 7.5,
+      "gps_trackers_id": 2
+    },
+    {
+      "id": 5,
+      "latitude": "29.7604° N",
+      "longitude": "95.3698° W",
+      "timestamp": 1620014800,
+      "heading": 180.0,
+      "altitude": 250.0,
+      "accuracy": 5.0,
+      "gps_trackers_id": 1
+    },
+    {
+      "id": 6,
+      "latitude": "33.4484° N",
+      "longitude": "112.0740° W",
+      "timestamp": 1620014900,
+      "heading": 270.0,
+      "altitude": 300.0,
+      "accuracy": 5.5,
+      "gps_trackers_id": 2
+    },
+    {
+      "id": 7,
+      "latitude": "32.7157° N",
+      "longitude": "117.1611° W",
+      "timestamp": 1620015000,
+      "heading": 90.0,
+      "altitude": 350.0,
+      "accuracy": 5.0,
+      "gps_trackers_id": 1
+    },
+    {
+      "id": 8,
+      "latitude": "34.0522° N",
+      "longitude": "118.2437° W",
+      "timestamp": 1620015100,
+      "heading": 0.0,
+      "altitude": 400.0,
+      "accuracy": 5.0,
+      "gps_trackers_id": 2
+    }
+  ],
+  "occupancy_logs": [
+    {
+      "id": 1,
+      "time_stamp": "2024-05-02T07:00:00Z",
+      "occupancy_count": 30,
+      "cameras_device_id": 1
+    },
+    {
+      "id": 2,
+      "time_stamp": "2024-05-02T07:15:00Z",
+      "occupancy_count": 25,
+      "cameras_device_id": 2
+    },
+    {
+      "id": 3,
+      "time_stamp": "2024-05-02T07:30:00Z",
+      "occupancy_count": 20,
+      "cameras_device_id": 1
+    },
+    {
+      "id": 4,
+      "time_stamp": "2024-05-02T07:45:00Z",
+      "occupancy_count": 15,
+      "cameras_device_id": 2
+    },
+    {
+      "id": 5,
+      "time_stamp": "2024-05-02T07:00:00Z",
+      "occupancy_count": 10,
+      "cameras_device_id": 1
+    },
+    {
+      "id": 6,
+      "time_stamp": "2024-05-02T08:15:00Z",
+      "occupancy_count": 5,
+      "cameras_device_id": 2
+    },
+    {
+      "id": 7,
+      "time_stamp": "2024-05-02T08:30:00Z",
+      "occupancy_count": 0,
+      "cameras_device_id": 1
+    },
+    {
+      "id": 8,
+      "time_stamp": "2024-05-02T08:45:00Z",
+      "occupancy_count": 0,
+      "cameras_device_id": 2
+    },
+    {
+      "id": 9,
+      "time_stamp": "2024-05-02T09:00:00Z",
+      "occupancy_count": 0,
+      "cameras_device_id": 1
+    },
+    {
+      "id": 10,
+      "time_stamp": "2024-05-02T09:15:00Z",
+      "occupancy_count": 0,
+      "cameras_device_id": 2
+    },
+    {
+      "id": 11,
+      "time_stamp": "2024-05-02T09:30:00Z",
+      "occupancy_count": 0,
+      "cameras_device_id": 1
+    },
+    {
+      "id": 12,
+      "time_stamp": "2024-05-02T09:45:00Z",
+      "occupancy_count": 0,
+      "cameras_device_id": 2
+    }
+  ],
+  "smart_bands": [
+    {
+      "id": 1,
+      "model": "Band Model X"
+    },
+    {
+      "id": 2,
+      "model": "Band Model Y"
+    }
+  ]
+}
