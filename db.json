@@ -1,18 +1,4 @@
 {
-  "cameras_device": [
-    {
-      "id": 1,
-      "model": 101,
-      "installation_date": "2024-04-25",
-      "bus_unit_id": 101
-    },
-    {
-      "id": 2,
-      "model": 102,
-      "installation_date": "2024-04-26",
-      "bus_unit_id": 102
-    }
-  ],
   "estimated_arrivals": [
     {
       "id": 1,
@@ -345,16 +331,6 @@
       "time_stamp": "2024-05-02T09:45:00Z",
       "occupancy_count": 0,
       "cameras_device_id": 2
-    }
-  ],
-  "smart_bands": [
-    {
-      "id": 1,
-      "model": "Band Model X"
-    },
-    {
-      "id": 2,
-      "model": "Band Model Y"
     }
   ]
 }
